@@ -20,6 +20,34 @@ import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 // Import Images
 
+export const nav_links = [
+  {
+    id: 1,
+    lable: "Home",
+    link: "#home",
+  },
+  {
+    id: 2,
+    lable: "Skills",
+    link: "#skills",
+  },
+  {
+    id: 3,
+    lable: "Work",
+    link: "#work",
+  },
+  {
+    id: 4,
+    lable: "About",
+    link: "#about",
+  },
+  {
+    id: 5,
+    lable: "Contact",
+    link: "#contact",
+  },
+];
+
 export const skills_category = [
   {
     title: "Frontend",
