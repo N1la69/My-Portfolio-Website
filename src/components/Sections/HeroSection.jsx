@@ -91,7 +91,7 @@ const HeroSection = () => {
                     } shadow-2xl`}
                   >
                     <img
-                      src=""
+                      src={null}
                       alt="profile"
                       className="w-full h-full object-cover"
                     />
@@ -390,7 +390,7 @@ const HeroSection = () => {
                   } shadow-2xl`}
                 >
                   <img
-                    src=""
+                    src={null}
                     alt="profile"
                     className="w-full h-full object-cover"
                   />

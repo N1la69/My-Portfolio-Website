@@ -44,7 +44,10 @@ const Navbar = () => {
             <motion.button
               key={item.id}
               whileHover={{ y: -2 }}
-              onClick={() => scrollToSection(item.link)}
+              onClick={() => {
+                scrollToSection(item.link);
+                console.log(item.link);
+              }}
               className={`text-sm uppercase tracking-wider transition-colors ${
                 isDarkMode
                   ? "text-gray-400 hover:text-white"
