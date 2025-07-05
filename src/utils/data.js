@@ -147,7 +147,7 @@ export const projects = [
     tags: ["React", "NextJS"],
     liveUrl: "#",
     gitUrl: "#",
-    featured: false,
+    featured: true,
     category: "Web App",
   },
 ];
